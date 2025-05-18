@@ -1,0 +1,7 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding-top: clamp(2rem, 10vw, 5rem);
+  }

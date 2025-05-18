@@ -1,0 +1,15 @@
+//定制颜色
+@forward 'element-plus/theme-chalk/src/common/var.scss' with (
+  $colors: (
+    'primary': (
+      'base': #FFA500,
+    ),
+  ),
+);
+
+@use "element-plus/theme-chalk/src/index.scss" as *;
+// 背景：#FFFFFF（白色）或 #F5F5F5（浅灰色）
+// 辅助色：#FFEB3B（黄色）、#4CAF50（绿色）
+
+//深橙色(hover)：#ffe0b2
+//浅橙色(background)：#fff3e0
